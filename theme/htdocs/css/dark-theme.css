@@ -1,9 +1,7 @@
 /*!
- * Stylesheet to be the next version of the stylesheet for dbwebb.se.
+ * Dark-mode stylesheet
  *
- * This stylesheet is a look-a-like the dbwebb.se stylesheet and it is
- * special for the design course. The style is used to show off various
- * constructions of the website to show how they could be styled.
+ * This is my own stylesheet
  */
 /**
  * Normalize and reset the style.
@@ -5395,22 +5393,22 @@ h4:hover .header-anchor {
 }
 .breadcrumb-list li a:hover,
 .bullet-list li a:hover {
-  color: #33f;
+  color: #eee;
   text-decoration: underline;
 }
 a {
-  color: #33b;
+  color: #ff9933;
   text-decoration: underline;
 }
 a:visited {
-  color: #838;
+  color: #ff9933;
 }
 a:hover {
-  color: #33f;
+  color: #eee;
   text-decoration: none;
 }
 .footer a {
-  color: #448;
+  color: #ff9933;
   text-decoration: underline;
 }
 .footer a:visited {
@@ -5454,7 +5452,7 @@ a:hover {
 .blog-post .meta-header a:hover,
 .blog-list .meta-footer a:hover,
 .blog-post .meta-footer a:hover {
-  color: #33f;
+  color: #eee;
   text-decoration: underline;
 }
 .blog-list .meta-footer ul,
@@ -5491,7 +5489,7 @@ a:hover {
   text-decoration: none;
 }
 .blog-list h1 a:hover {
-  color: #33f;
+  color: #eee;
   text-decoration: underline;
 }
 .blog-post h1 {
@@ -5516,7 +5514,7 @@ a:hover {
   text-decoration: none;
 }
 .blog-toc .toc li a:hover {
-  color: #33f;
+  color: #eee;
   text-decoration: underline;
 }
 /** --------------------------------------------------------------
@@ -5603,8 +5601,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #111;
-  background-color: #fff;
+  color: #eee;
+  background-color: #343640;
   font: 16px/1.5 Verdana, Geneva, sans-serif;
 }
 h1,
@@ -6761,7 +6759,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .sidebar .block h4 a:hover,
 .columns-above .block h4 a:hover,
 .columns-below .block h4 a:hover {
-  color: #33f;
+  color: #eee;
   text-decoration: underline;
 }
 .article .block h4 a,
@@ -6941,3 +6939,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * My settings.
  */
+h4 {
+  background-image: none !important;
+}
+.outer-wrap-footer {
+  background-color: #3335;
+  border-top: 1px solid #ff9933;
+}

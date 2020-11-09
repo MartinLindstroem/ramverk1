@@ -48,5 +48,15 @@ return [
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
+        [
+            "text" => "Validera Ip-adress",
+            "url" => "ip",
+            "title" => "Validera ip-adresser",
+        ],
+        [
+            "text" => "REST API",
+            "url" => "api",
+            "title" => "Validera ip med API",
+        ],
     ],
 ];

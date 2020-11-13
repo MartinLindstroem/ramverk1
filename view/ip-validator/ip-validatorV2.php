@@ -28,7 +28,7 @@ crossorigin=""></script>
     <p>Latitud: <?=$result["latitude"]?></p>
     <p>Longitud: <?=$result["longitude"]?></p>
 <?php else : ?>
-    <?php if ($result["ip"]) : ?>
+    <?php if ($result) : ?>
         <p><?=$result["ip"]?> är inte en giltig IP-adress</p>
     <?php endif; ?>
 <?php endif; ?>

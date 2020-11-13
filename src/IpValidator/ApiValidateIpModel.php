@@ -50,11 +50,11 @@ class ApiValidateIpModel
     {
         $accessKey = file_get_contents(ANAX_INSTALL_PATH."/config/private_access_key.php");
 
-        $ch = curl_init("http://api.ipstack.com/".$ipAddress."?access_key=".$accessKey."");
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $curl = curl_init("http://api.ipstack.com/".$ipAddress."?access_key=".$accessKey."");
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
-        $json = curl_exec($ch);
-        curl_close($ch);
+        $json = curl_exec($curl);
+        curl_close($curl);
 
         $this->result = json_decode($json, true);
     }

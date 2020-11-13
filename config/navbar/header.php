@@ -38,11 +38,11 @@ return [
             "url" => "om",
             "title" => "Om denna webbplats.",
         ],
-        [
-            "text" => "Styleväljare",
-            "url" => "style",
-            "title" => "Välj stylesheet.",
-        ],
+        // [
+        //     "text" => "Styleväljare",
+        //     "url" => "style",
+        //     "title" => "Välj stylesheet.",
+        // ],
         [
             "text" => "Verktyg",
             "url" => "verktyg",
@@ -54,8 +54,18 @@ return [
             "title" => "Validera ip-adresser",
         ],
         [
+            "text" => "Validera Ip-adress(v2)",
+            "url" => "validate-ip",
+            "title" => "Validera ip-adresser",
+        ],
+        [
             "text" => "REST API",
             "url" => "api",
+            "title" => "Validera ip med API",
+        ],
+        [
+            "text" => "REST API(v2)",
+            "url" => "rest-api",
             "title" => "Validera ip med API",
         ],
     ],

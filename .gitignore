@@ -3,5 +3,6 @@
 /vendor
 /htdocs/js/token.js
 /config/private_access_key.php
+/config/private_keys.php
 memory::
 composer.lock

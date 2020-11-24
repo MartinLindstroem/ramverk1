@@ -5,15 +5,29 @@
     let long;
     let map;
 
-    if (result) {
-        if (result.latitude && result.longitude) {
-            lat = result.latitude;
-            long = result.longitude;
+    // if (ipResult) {
+    //     if (ipResult.latitude && ipResult.longitude) {
+    //         lat = ipResult.latitude;
+    //         long = ipResult.longitude;
     
-            map = L.map('mapid').setView([lat, long], 10);
-        } else {
-            map = L.map('mapid').setView([40, 15], 2);
-        }
+    //         map = L.map('mapid').setView([lat, long], 10);
+    //     } else {
+    //         map = L.map('mapid').setView([40, 15], 2);
+    //     }
+    // } else {
+    //     map = L.map('mapid').setView([40, 15], 2);
+    //     console.log("NOOOOO");
+    // }
+    if (ipResult && ipResult.latitude && ipResult.longitude) {
+        lat = ipResult.latitude;
+        long = ipResult.longitude;
+
+        map = L.map('mapid').setView([lat, long], 10);
+    } else if (locationResult && locationResult.lat && locationResult.lon) {
+        lat = locationResult.lat;
+        long = locationResult.lon;
+
+        map = L.map('mapid').setView([lat, long], 10);
     } else {
         map = L.map('mapid').setView([40, 15], 2);
     }

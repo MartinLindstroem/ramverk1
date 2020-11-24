@@ -6946,3 +6946,18 @@ h4 {
   background-color: #3335;
   border-top: 1px solid #ff9933;
 }
+table {
+  border-collapse: collapse;
+  margin: 10px;
+}
+th {
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid #999;
+  padding: 10px;
+}
+.weather-container {
+  display: flex;
+}

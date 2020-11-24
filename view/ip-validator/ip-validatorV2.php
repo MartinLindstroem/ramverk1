@@ -37,5 +37,6 @@ crossorigin=""></script>
 <div id="mapid" style="height: 680px;"></div>
 
 <script type="text/javascript">
-    var result = <?php echo json_encode($result); ?>;
+    var ipResult = <?php echo json_encode($result); ?>;
+    var locationResult;
 </script>

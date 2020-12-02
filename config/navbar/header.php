@@ -68,15 +68,15 @@ return [
             "url" => "rest-api",
             "title" => "Validera ip med API",
         ],
-        // [
-        //     "text" => "Väder",
-        //     "url" => "weather",
-        //     "title" => "Få väderinformation",
-        // ],
-        // [
-        //     "text" => "Väder REST-API",
-        //     "url" => "weather-api",
-        //     "title" => "Få väderinformation via REST API",
-        // ],
+        [
+            "text" => "Väder",
+            "url" => "weather",
+            "title" => "Få väderinformation",
+        ],
+        [
+            "text" => "Väder REST-API",
+            "url" => "weather-api",
+            "title" => "Få väderinformation via REST API",
+        ],
     ],
 ];

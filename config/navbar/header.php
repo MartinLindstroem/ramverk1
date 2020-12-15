@@ -78,5 +78,10 @@ return [
             "url" => "weather-api",
             "title" => "Få väderinformation via REST API",
         ],
+        [
+            "text" => "Böcker",
+            "url" => "book",
+            "title" => "Titta på böcker",
+        ],
     ],
 ];
